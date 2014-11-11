@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.monkeyface.henry.signcommands</groupId>
   <artifactId>SignCommands</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>Sign Commands</name>
   <description>Run server commands by clicking signs! Very cool!</description>
   <build>
@@ -32,4 +32,5 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	<url>https://github.com/Riib11/SignCommands/tree/master</url>
 </project>
