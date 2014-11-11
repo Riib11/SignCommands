@@ -1,0 +1,29 @@
+name: SignCommands
+main: com.monkeyface.henry.signcommands.SignCommands
+version: 1.0
+
+commands:
+  signcommands:
+    description: All SignCommands commands
+    permission: signcommands.commands
+    permission-message: You do not have permission!
+  sc:
+    description: All SignCommands commands
+    permission: signcommands.commands 
+    permission-message: You do not have permission!
+      
+permissions:
+  signcommands.*:
+      children:
+        signcommands.commands: true
+        signcommands.signsetting: true
+        signcommands.activatesigns: true
+  signcommands.commands:
+    description: Access to all SignCommands typed commands      
+    default: op
+  signcommands.signsetting:
+    description: Access to shift-right-clicking signs to set them as proper [SignCommands] signs
+    default: op
+  signcommands.activatesigns:
+    description: Access to right-clicking [SignCommands] signs to activate their stored commands
+    default: true 
